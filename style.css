@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* --------- fonts ---------- */
+
+@font-face {
+  font-family: Arizona;
+  src: url("fonts/ABCArizonaFlareVariable.en.woff2");
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("fonts/InterVariable.en.woff2");
+}
+
+/* ----- styling ---------- */
+
+:root {
+  --brand-primary-color: #4a2dc5;
+  --primary-text-color: #372780;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: Inter;
+    background-color: #f7f5ff;
+}
+
+/* -------- header styling --------- */
+
+header {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4vw;
+  color: var(--primary-text-color);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-left a img {
+  width: 4.5rem;
+}
+
+.header-left ul {
+  display: flex;
+  gap: 1rem;
+  font-weight: 600;
+}
+
+.header-left ul li:hover {
+  color: var(--brand-primary-color);
+  cursor: pointer;
+}
+.Create-acc {
+  background-color: #6d4aff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+.Create-acc:hover {
+  background-color: #4a2dc5;
+  cursor: pointer;
+}
+.Sign-in {
+  color: var(--primary-text-color);
+  font-weight: 600;
+}
+.Sign-in:hover {
+  color: var(--brand-primary-color);
+  cursor: pointer;
+}
+
+/* -------- main styling --------- */
